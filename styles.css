@@ -3,3 +3,109 @@
 * {
     box-sizing: border-box;
 }
+p {
+    font-size: 14px;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+
+}
+
+.card-image {
+    background-image: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card {
+    width: 300px;
+    height: 500px;
+    
+}
+.product-type {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+  }
+.card-text {
+    padding: 30px;
+    background-color: white;
+}
+.product-title {
+    font-weight: 700;
+    font-family: Fraunces, sans-serif;
+}
+.gabrielle {
+    display: block;
+}
+
+.price-tag {
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+
+}
+.price {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    font-family: Fraunces, sans-serif;
+    padding-right: 20px;
+
+}
+.price h2 {
+    margin: 0;
+}
+.price-old {
+    text-decoration: line-through;
+    align-items: center;
+    color: gray;
+}
+
+.product-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 240px;
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    margin-top: 100px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+ button:hover {
+    background-color:hsl(158, 37%, 26%) ;
+ }
